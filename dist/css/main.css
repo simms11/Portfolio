@@ -100,7 +100,9 @@
   div.menu-branding {
     float: none;
     width: 100%;
-    min-height: 0; }
+    padding-top: 5px;
+    min-height: 130px;
+    line-height: 0.75; }
     ul.menu-nav.show,
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
@@ -112,17 +114,19 @@
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(/dist/img/portrait.jpg); } }
+      background: url(/dist/img/portrait.jpg);
+      background-size: cover; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; } }
+    margin-top: 10vh;
+    font-size: 18px; } }
 
 * {
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background: #444, 0.9;
   color: #fff;
   height: 100%;
   margin: 0;

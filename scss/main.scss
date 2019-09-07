@@ -6,7 +6,7 @@
 }
 body {
   @include background;
-  background: $primary-color;
+  background: ($primary-color, 0.9);
   color: #fff;
   height: 100%;
   margin: 0;
