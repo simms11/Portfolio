@@ -3,15 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "core-util-is": "^1.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recirsive"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simms11/Portfolio.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node-sass": "^4.12.0"
+  "bugs": {
+    "url": "https://github.com/simms11/Portfolio/issues"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.2"
-  }
+  "homepage": "https://github.com/simms11/Portfolio#readme"
 }
