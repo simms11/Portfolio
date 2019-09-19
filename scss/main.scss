@@ -110,7 +110,7 @@ main {
     border-bottom: rgba(lighten($secondary-color, 2), 5) 5px solid;
   }
 
-  #main-footer {
+  .footer {
     text-align: center;
     padding: 1rem;
     background: rgba(darken($primary-color, 2), 10);
