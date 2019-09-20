@@ -81,7 +81,6 @@ main {
 
   .bio-image {
     grid-area: bioimage;
-    margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
   }
@@ -93,7 +92,6 @@ main {
 
   .job-1 {
     grid-area: job1;
-
   }
 
   .job-2 {
@@ -109,14 +107,12 @@ main {
     padding: 0.5rem;
     border-bottom: rgba(lighten($secondary-color, 2), 5) 5px solid;
   }
-
-  .footer {
-    text-align: center;
-    padding: 1rem;
-    background: rgba(darken($primary-color, 2), 10);
-    color: set-text-color(rgba(lighten($primary-color, 2), 5));
-    height: 60px;
-  }
 }
-
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(darken($primary-color, 2), 10);
+  color: set-text-color(rgba(lighten($primary-color, 2), 5));
+  height: 60px;
+}
 @import 'mobile';
