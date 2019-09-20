@@ -127,25 +127,41 @@ main {
   }
 }
 
+//contact pages
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+
+  div {
+    font-size: 2rem;
+
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    @include easeOut;
+  }
+}
 //button styling
 .btn {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
-  &:hover{
+  &:hover {
     background: rgba($secondary-color, 2);
     color: set-text-color (rgba($secondary-color, 2));
   }
 }
 
-.btn-dark{
-@extend .btn;
-background: darken($primary-color, 50);
-color: #fff;
+.btn-dark {
+  @extend .btn;
+  background: darken($primary-color, 50);
+  color: #fff;
 }
 
-.btn-light{
+.btn-light {
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;
